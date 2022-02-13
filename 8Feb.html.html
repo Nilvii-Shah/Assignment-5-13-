@@ -1,0 +1,64 @@
+<html>
+    <title> Geekster Addmission Form</title>
+    <head>
+        <style>
+            body{
+                text-align: center;
+                background-color: forestgreen;
+            }
+        </style>
+        <link rel="icon" href="./WhatsApp Image 2022-02-12 at 10.42.34 PM.jpeg"></link>
+        <center> <h1>Application Form</h1></center>
+        <form>
+            <label><b> Name*</b></label>
+            <input type="text" style="border-top-color:aquamarine"; style="border-width:50px" placeholder="Enter your Full Name" name = "Name" minlength ="3"  required> 
+            <label><b> Email*</b></label>
+            <input type = "email" placeholder ="Enter your email-address" name="email" pattern =".+@gmail.com" required >
+            <br><br>
+            <label><b> Select Course*</b></label>
+            <label for="Select Course"></label>
+            <select>
+            <option disabled selected> Select Course</option>
+            <option> Full Stack Web Development</option>
+            <option> Advance Web Development</option>
+        </select><br><br><br>
+        <label><b> Phone*</b></label>
+        <input type = "number" placeholder="Enter your phone number" name = "phone number" minlength="10" pattern="[6789][0-9]{9}" required>
+        <label><b> Highest Degree*</b></label>
+        <label for ="Highest Degree"></label>
+        <select>
+            <option disabled selected> Select Highest Degree</option>
+            <option> BTECH</option>
+            <option> BE</option>
+            <option> ME </option>
+            <option> MCA </option>
+            <option> BCA </option>
+            <option> OTHER </option>
+
+        </select><br><br>
+        
+        <label><b>Year of Passing*</b></label>
+        <select>
+            <option disabled selected> Select Year</option>
+            <option> 2022</option>
+            <option> 2021</option>
+            <option> 2020 </option>
+            <option> 2019 </option>
+            <option> 2018 </option>
+            <option> OTHER </option>
+        </select>
+        <label><b>Programming Skills*</b></label>
+        <select>
+            <option disabled selected> Select Programming skill level</option>
+            <option> No coding skills</option>
+            <option> Basic Coding skills</option>
+            <option> Intermediate Coding skills </option>
+            <option> Advanced Coding skills </option>
+        </select><br><br>
+        <input type="checkbox" name="checkbox" required />By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*<br><br>
+            <input type="reset" name="reset" value="Reset" required />
+			<input type="submit" name="submit" value="Submit" required />
+        </form>
+
+    </head>
+</html>
